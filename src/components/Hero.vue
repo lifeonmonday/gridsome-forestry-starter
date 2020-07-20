@@ -1,7 +1,10 @@
 <template>
     <div class="hero">
+        <div class="hero-text">
         <h1 class="hero-title" v-html="settings.hero_title" />
         <h2 class="hero-subtitle" v-html="settings.hero_subtitle" />
+        </div>
+        <div class="hero-img"> <img  src="../../static/logo-a.svg" /></div>
     </div>
 </template>
 
@@ -16,12 +19,19 @@ export default {
 </script>
 
 <style>
-.hero {
-    text-align: center;
+.hero{margin: 0;
+    padding: 4rem 0 8rem 0; height:100%;
+    
+    }
+
+.hero-img{width:200px;float:left;}
+
+.hero-text {
+    text-align: left;
     width: 480px;
     max-width: 100%;
-    margin: 0 auto;
-    padding: 4rem 0 8rem 0;
+    float:left;
+    
 }
 
 .hero-title {
