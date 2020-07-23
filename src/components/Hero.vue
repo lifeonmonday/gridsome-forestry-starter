@@ -31,6 +31,7 @@ export default {
     width: 480px;
     max-width: 100%;
     float:left;
+    clear:both
     
 }
 

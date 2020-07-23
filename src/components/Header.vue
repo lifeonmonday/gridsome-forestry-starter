@@ -32,7 +32,7 @@ export default {
 <style scoped>
 .header {
     position: relative;
-    height: 6rem;
+    height: 10rem;
     z-index: 10;
 }
 .header.sticky {
@@ -51,7 +51,8 @@ export default {
     text-decoration: none;
 }
 .logo {
-    height: 1.5rem;
+    height: 5rem;
+   margin-top: 1.5rem;
 }
 .site-name {
     font-size: 0.9rem;
