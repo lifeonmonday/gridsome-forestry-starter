@@ -1,0 +1,16 @@
+- name: Merge Dependabot PRs automatically
+  # You may pin to the exact commit or the version.
+  # uses: jo-sm/at-dependabot-merge@11d55c354fc132c2bc89bf55309e09fcfcc4c25f
+  uses: jo-sm/at-dependabot-merge@v1.3.1
+  with:
+    # Github token for user with push permissions on the repo
+    token: 
+    # Workflow run ID
+    run-id: 
+    # If all workflow runs must be successful. By default workflows that are skipped are ignored, but to require everything to be successful
+you can set this option.
+
+    only-success: # optional
+    # Only use the provided run ID's check suite. By default all check suites for the PR are considered when creating the comment.
+
+    only-given-run: # optional
